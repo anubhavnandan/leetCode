@@ -37,7 +37,6 @@ public:
 int main(){
 
 int a[] = {1,2,4,6,7};
-int t = 3;
 vector <int> V(begin(a),end(a));
 
 Solution Obj;
