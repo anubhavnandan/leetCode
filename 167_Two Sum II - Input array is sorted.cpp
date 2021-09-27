@@ -18,7 +18,8 @@ public:
 				result.push_back(i+1);
 				break;
 			}else{
-				lookUp.insert({numbers[i],i});
+				lookUp[numbers[i]]=i;
+//				lookUp.insert(numbers[i],i); Costly 1 Sec
 			}
 		}
 		return result; 
