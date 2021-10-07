@@ -29,8 +29,13 @@ int main(){
 Solution Obj;
 
 cout<<Obj.lengthOfLongestSubstring("aabaab!bb");
-//abcabcbb
-//bbbbb
+//"abcabcbb"
+//"bbbbb"
+//"pwwkew"
+//""
+//"tmmzuxt"
+//"dvdf"
+//"aabaab!bb"
 return 0;
 }
 
