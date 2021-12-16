@@ -35,4 +35,3 @@ for(auto x : Output)
 
 return 0;
 }
-
