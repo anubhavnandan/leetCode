@@ -6,9 +6,9 @@ using namespace std;
 class Solution
 {
 public:
-    vector<int> p1;
     vector<int> plusOne(vector<int> &digits)
     {
+        vector<int> p1;
         int s = 0, c = 0;
         int start = digits.size() - 1;
         for (int i = start; i >= 0; i--)
@@ -20,13 +20,14 @@ public:
             s == 10 ? (s = 0, c = 1) : (c = 0);
             p1.insert(p1.begin(), s);
         }
-        if(c==1)p1.insert(p1.begin(),1);
+        if (c == 1)
+            p1.insert(p1.begin(), 1);
         return p1;
     }
 };
 int main()
 {
-    int a[] = {9};
+    int a[] = {0};
     vector<int> V(begin(a), end(a));
 
     Solution Obj;
